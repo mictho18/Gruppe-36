@@ -3,10 +3,13 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="bootstrap.css">
 	<style type="text/css">
+		
 		.grey{
 			font-size: 27px;
 			background: #696969;
 			border: 1px solid #696969;
+			height: 500px;
+			border-right: 1px solid #778899;
 		}
 
 	</style>
@@ -16,8 +19,8 @@
 
 <body>
 
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="Nova.HTML">Nova</a>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light navbar fixed-top">
+  <a class="navbar-brand" href="nova.html"><img src="https://image.flaticon.com/icons/svg/660/660464.svg" width="30" height="25" class="d-inline-block align-top" alt="">Nova</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -33,15 +36,16 @@
   </div>
 </nav>
 
-<div class="container">
+<div class="container container-fluid">
 	<div class="row">
-		<div class="col-sm grey">To Do</div>	
-		<div class="col-sm grey">Doing</div>
-		<div class="col-sm grey">Done</div>
+		<div class="col-lg grey">To Do</div>	
+		<div class="col-lg grey">Doing</div>
+		<div class="col-lg grey">Done</div>
 	</div>
 </div>
 
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
-
-
 </html>

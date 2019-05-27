@@ -61,6 +61,7 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
+  padding-top: 70px;
 }
 
 [tabindex="-1"]:focus {
@@ -5088,8 +5089,10 @@ a.badge-dark:focus, a.badge-dark.focus {
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  background-color: #e9ecef;
+  background-color: #D3D3D3;
   border-radius: 0.3rem;
+  color: #2c3e50;
+
 }
 
 @media (min-width: 576px) {
@@ -6570,7 +6573,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #f8f9fa !important;
+  background-color: ##D3D3D3 !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
@@ -10036,5 +10039,6 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6;
   }
+
 }
 /*# sourceMappingURL=bootstrap.css.map */
