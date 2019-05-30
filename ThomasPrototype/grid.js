@@ -50,7 +50,7 @@
   var itemElem = document.createElement('div');
   var itemTemplate = '' +
       '<div class="board-item">' +
-      '<div class="board-item-content">' +
+      '<div class="board-item-content">' + '<button>button</button>' +
       '<p class="board-title">' + 
       '</div>' +
       '</div>';
