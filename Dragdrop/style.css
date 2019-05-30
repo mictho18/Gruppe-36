@@ -206,7 +206,7 @@ li {
   margin: 0.4rem;
   height: 4rem;
   border-radius: 10px;
-  cursor: move;
+  cursor: pointer;
   text-align: center;
   vertical-align: middle;
 }
