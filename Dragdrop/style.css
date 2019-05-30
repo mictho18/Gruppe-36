@@ -1,4 +1,4 @@
-/* Header */
+/* HEADER */
 
 #header {
   position: absolute;
@@ -34,6 +34,8 @@ body {
   height: 100%;
 }
 
+/* -- BOARD -- */
+
 board {
   position: fixed;
   top: 50px;
@@ -42,17 +44,7 @@ board {
   right: 0;
   bottom: 0;
   overflow: auto;
-  background-image: linear-gradient(180deg, #bdc3c7 0%, #5a7c9e 100%);
-}
-
-/* -- BOARD -- */
-:root {
-  font-size: calc(0.5vw + 1vh);
-}
-
-* {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+  width: 100%;
 }
 
 h1,
@@ -94,6 +86,8 @@ a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 .columns {
@@ -103,7 +97,8 @@ a:hover {
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: flex-start;
-  margin: 1.6rem auto;
+  margin: 20px;
+  width: 100%;
 }
 
 .column {
@@ -112,11 +107,17 @@ a:hover {
   background: #a8a8a8;
   border: white  0.1rem solid;
   border-radius: 0.2rem;
+  width: 100%;
+  margin: 0 0.5rem;
+  background: #e4e4e4;
+  border-radius: 10px;
 }
 
 .column-header {
   padding: 0.1rem;
   border-bottom: white 0.1rem solid;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .column-header h4 {
@@ -205,6 +206,8 @@ li {
   border: grey 0.1rem solid;
   border-radius: 0.2rem;
   cursor: move;
+  border-radius: 10px;
+  cursor: pointer;
   text-align: center;
   vertical-align: middle;
 }
