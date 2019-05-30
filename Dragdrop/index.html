@@ -2,19 +2,17 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="style.css">
-  
+  <title>Nova Kanban</title>
 </head>
 <header id="header">
     <div id="logo">Novalogo</div>
     <div id="user">John Doe</div>
-      <button type="button" class="idea-board-btn">Idea board</button>
-
+      <button type="button" id="idea-board-btn">Idea board</button>
         <div class="add-task-container">
             <input type="text" maxlength="12" id="taskText" placeholder="New Task..." onkeydown="if (event.keyCode == 13)
                                   document.getElementById('add').click()">
             <button id="add" class="button add-button" onclick="addTask()">Add New Task</button>
-        </div>
-                
+        </div>      
     </header>
 <body>
 <board>
@@ -91,12 +89,17 @@
         </div>
       </li>
     -->
-  
     </ul>
   </div>
 
-
 </board>
+
+<div id="idea-window">
+    <div class="idea-container">
+            <button id="new-idea-btn">Create new idea</button> 
+            </div>                
+    </div>
+</div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
