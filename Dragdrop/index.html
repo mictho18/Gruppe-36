@@ -7,7 +7,7 @@
 <header id="header">
     <div id="logo">Novalogo</div>
     <div id="user">John Doe</div>
-      <button type="button" id="idea-board-btn">Idea board</button>
+      <button type="button" class="idea-board-btn">Idea board</button>
 
         <div class="add-task-container">
             <input type="text" maxlength="12" id="taskText" placeholder="New Task..." onkeydown="if (event.keyCode == 13)
@@ -18,8 +18,6 @@
     </header>
 <body>
 <board>
-
-    
   
   <div class="container">
     <ul class="columns">
@@ -97,11 +95,16 @@
     </ul>
   </div>
 
-<script src='https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.2/dragula.min.js'></script>
-<script src="main.js"></script>
 
 </board>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.2/dragula.min.js"></script>
+<script src="main.js"></script>
+<script src="idea.js"></script>
 </body>
 
 </html>

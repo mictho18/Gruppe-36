@@ -29,13 +29,6 @@
   color: white;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  height: 100%;
-}
-
 /* -- BOARD -- */
 
 board {
@@ -262,19 +255,17 @@ li {
 }
 
 /* IDEA WINDOW */
-/* IDEA WINDOW */
 
-#idea-board-btn {
+.idea-board-btn {
   position: absolute;
   width: 80px;
-  margin-left: -80px;
-  left: 50%;
+  left: 60%;
   line-height: 20px;
   top: 12px;
 }
 
-#idea-window {
-  /*display: none; /* hide/display idea board */
+.idea-window {
+  /*display: none; hide/display idea board */
   position: absolute;
   left: 0;
   right: 0;
@@ -283,16 +274,14 @@ li {
   overflow: auto;
   background: rgb(208, 248, 239);
   z-index: 4;
-
 }
 
-#new-idea-btn {
+.new-idea-btn {
   position: absolute;
   width: 120px;
-  left: 50%;
+  left: 70%;
   margin-left: -100px;
-  top: 20px;
-
+  top: 0px;
 }
 
 #idea-container {
