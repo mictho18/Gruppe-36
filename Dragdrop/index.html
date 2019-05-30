@@ -7,15 +7,18 @@
     <div id="logo">Novalogo</div>
     <div id="user">John Doe</div>
       <button type="button" id="idea-board-btn">Idea board</div>
+
+        <div class="add-task-container">
+            <input type="text" maxlength="12" id="taskText" placeholder="New Task..." onkeydown="if (event.keyCode == 13)
+                                  document.getElementById('add').click()">
+            <button id="add" class="button add-button" onclick="addTask()">Add New Task</button>
+        </div>
+                
     </header>
 <body>
 <board>
-  
-  <section class="add-task-container">
-    <input type="text" maxlength="12" id="taskText" placeholder="New Task..." onkeydown="if (event.keyCode == 13)
-                          document.getElementById('add').click()">
-    <button id="add" class="button add-button" onclick="addTask()">Add New Task</button>
-  </section>
+
+    
   
   <div class="container">
     <ul class="columns">
@@ -92,7 +95,7 @@
     </ul>
   </div>
 
-<script src='https://cdnjs.cloudflare.com/ajax/libs/dragula/$VERSION/dragula.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.2/dragula.min.js'></script>
 <script src="main.js"></script>
 
 </board>
