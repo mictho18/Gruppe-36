@@ -164,11 +164,39 @@ main {
     background: #2ac06d;
 }
 
+.board-column.addTask .board-column-header {
+    background: #333;
+}
+
 .board-column-content {
     position: relative;
     border: 10px solid transparent;
     min-height: 30px;
 }
+
+.form-add-todo {
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    overflow: hidden;
+    padding: 0 20px;
+    text-align: center;
+    background: #333;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.form-add-todo input{
+    margin-left: 1px;
+}
+
+input[type=text] {
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 13px;
+  }
 
 .board-item {
     position: absolute;
@@ -218,6 +246,35 @@ main {
 .btn:hover {
     background: rgb(122, 179, 240);
 }
+
+.task-list {
+    min-height: 3rem;
+  }
+
+.task {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    vertical-align: middle;
+    list-style-type: none;
+    background: #fff;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    margin: 0.4rem;
+    height: 4rem;
+    border: #000013 0.15rem solid;
+    border-radius: 0.2rem;
+    cursor: move;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+.task p {
+    margin: auto;
+  }
 
 
 /*

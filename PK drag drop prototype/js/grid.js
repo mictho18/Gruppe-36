@@ -70,6 +70,31 @@ function addEvent() {
   columnGrids[0].add([item])
 }
 
+var input = document.getElementById("myInput");
+input.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+   event.preventDefault();
+   var event = {
+    id: 1,
+    name: "event"
+  }
+  
+  var item = generateBoardItem(event);
+  columnGrids[0].add([item])
+  }
+  
+});
+
+function addTask() {
+  /* Get task text from input */
+  var inputTask = document.getElementById("myTxt").value;
+  /* Add task to the 'To Do' column */
+  document.getElementById("todo").innerHTML +=
+    "<li class='task'><p>" + inputTask + "</p></li>";
+  /* Clear task text from input after adding task */
+  document.getElementById("myTxt").value = "";
+}
+
  // Prevent column drag
  boardGrid = new Muuri('.board', {
    dragEnabled: false,
@@ -83,3 +108,22 @@ mydiv. appendChild(div);
 div. className ="dynamicDiv";
 div. innerHTML = "<input type='text' name='mytext[]' value='mytext' />";
 }
+
+function createCard(text, listID, index) {
+  if(!text || text === '') return false;
+  var newCardId = ++_cardCounter;
+  var card = document.createElement("div");
+  var list = getList({_id: listID});
+  card.draggable = true;
+  card.dataset.id = newCardId;
+  card.dataset.listId = listID;
+  card.id = 'todo_'+newCardId;
+  card.className = 'card';
+  card.innerHTML = text.trim();
+  var todo = {
+    _id: newCardId,
+    listID: listID,
+    text: text,
+    dom: card,
+    index: index || list.cards+1 // Relative to list
+  }};

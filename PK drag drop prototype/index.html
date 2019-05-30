@@ -20,14 +20,54 @@
     <main>
         <!--dragndrop board-->
             <div class="board">
-                <div class="board-column todo">
-                    <button type="button" class="btn"  onclick="addEvent()">+</button>
+                <div class="board-column addTask">
+                    <div class="board-column-header">Add task</div>
+                    <div class="board-column-content">
+                            
+                            <input type="text" autocomplete="off" name="todo_text" id="myInput" value="" placeholder="Write and press enter" /> 
+                            <section class="add-task-container">
+                                <input type="text" maxlength="12" id="myTxt" placeholder="New Task..." onkeydown="if (event.keyCode == 13)
+                                                      document.getElementById('add').click()">
+                                <button id="add" class="button add-button" onclick="addTask()">Add New Task</button>
+                              </section>
+            
+                        </div></div>
+                
+                
+            
+
+    
+                
+                    
+                    <div class="board-column todo" id="todo">
+                    
+                    <!----<button type="button" class="btn" onclick="addEvent()">+</button> ---->
+                    
                     <div class="board-column-header">To do</div>
                     <div class="board-column-content">
-                    <!--    <div class="board-item"><div class="board-item-content"></div></div>
-                        <div class="board-item"><div class="board-item-content"></div></div> -->
+                            
+
+                    <div class="board-item">
+                        
+                        <div class="board-item-content" id="list">
+                                <li class="task">
+                                        <p>Analysis</p>
+                                      </li>
+                                     
+                                
+                        </div>
+                    </div>
+                        <div class="board-item">
+                        <div class="board-item-content">
+                                <li class="task">
+                                        <p>Coding</p>
+                                      </li>
+                        </div>
+                    </div> 
+
                     </div>
                 </div>
+            
                 <div class="board-column doing">
                     <div class="board-column-header">Doing</div>
                     <div class="board-column-content">
@@ -35,10 +75,15 @@
                 </div>
                 <div class="board-column done">  
                     <div class="board-column-header">Done</div>
-                    <div class="board-column-content">
-                    </div>
+                    <div class="board-column-content"></div>
                 </div>
+
+
+
+                
             </div>
+
+            
 
 
 
