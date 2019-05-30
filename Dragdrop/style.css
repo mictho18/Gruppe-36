@@ -1,5 +1,7 @@
 /* HEADER */
 
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
 #header {
   position: absolute;
   top: 0;
@@ -49,7 +51,7 @@ board {
 
 h1,
 h4 {
-  font-family: "Arimo", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 header h1 {
@@ -58,7 +60,7 @@ header h1 {
 }
 
 p {
-  font-family: "Roboto Slab", serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 a,
@@ -159,8 +161,11 @@ li {
   padding: 0.1rem;
 }
 
+* {
+  font-family: "Open Sans", sans-serif;
+}
 .button {
-  font-family: "Arimo", sans-serif;
+ 
   font-weight: 700;
   color: yellow;
   padding: 0.6rem 1rem;
@@ -215,7 +220,7 @@ li {
 #taskText {
   background: white;
   text-align: center;
-  font-family: "Roboto Slab", serif;
+  font-family: "Poppins", sans-serif;
   height: 2rem;
   width: 7rem;
   margin: auto 0.8rem auto 0.1rem;
