@@ -76,10 +76,15 @@ a:hover {
 }
 
 .add-task-container {
-  width: 10px;
-  height: 10px;
-  margin: auto;
-  padding: 0.4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  margin: 0px;
+  position: absolute;
+  left: 10%;
 }
 
 .container {
@@ -203,8 +208,6 @@ li {
   transition: all 0.3s;
   margin: 0.4rem;
   height: 4rem;
-  border: grey 0.1rem solid;
-  border-radius: 0.2rem;
   cursor: move;
   border-radius: 10px;
   cursor: pointer;
