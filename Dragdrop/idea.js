@@ -11,6 +11,16 @@ $(function() {
         var newDiv = $('<div class="idea-content" contentEditable="true"></div>');
     $(".idea-container").append(newDiv);
     $( ".idea-content" ).draggable();
+    $(".idea-content").bind("keydown", function(event) {
+      var target = $(event.target);
+      c = event.keyCode;
+      
+      if(c === 13 || c === 27) {
+          $(".idea-content").blur();
+          // Workaround for webkit's bug
+          window.getSelection().removeAllRanges();
+      }
+    
+    });
     });
 });
-
