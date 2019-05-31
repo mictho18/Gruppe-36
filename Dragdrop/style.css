@@ -80,6 +80,7 @@ a:hover {
   margin: 0px;
   position: absolute;
   left: 10%;
+  top: 12px;
 }
 
 .container {
@@ -116,6 +117,7 @@ a:hover {
   padding: 0.1rem;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  color: white;
 }
 
 .column-header h4 {
@@ -160,33 +162,27 @@ li {
 * {
   font-family: "Open Sans", sans-serif;
 }
-.button {
-  font-weight: 700;
-  color: yellow;
-  padding: 0.6rem 1rem;
-  margin-bottom: 0.3rem;
+
+.add-button {
+  z-index: 1;
+  right: 10px;
+  top: 10px;
+  display:block;
+  width:30px;
+  height:30px;
+  line-height:25px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  color: #fff;
+  background: #4A9FF9;
+  text-align:center;
+  box-shadow: 0 0 3px rgba(92, 92, 92, 0.2);
+  font-size:20px;
   cursor: pointer;
 }
 
-.delete-button {
-  background-color: #ff4444;
-  margin: 0.1rem auto 0.6rem auto;
-}
-
-.delete-button:hover {
-  background-color: #fa7070;
-}
-
-.add-button {
-  background-color: #ffcb1e;
-  padding: 0 1rem;
-  height: 1.8rem;
-  width: 10rem;
-  margin-top: 0.6rem;
-}
-
 .add-button:hover {
-  background-color: #ffdd6e;
+  background: darkcyan ;
 }
 
 .task {
@@ -214,9 +210,15 @@ li {
   background: white;
   text-align: center;
   font-family: "Poppins", sans-serif;
-  height: 2rem;
-  width: 7rem;
+  font-size: 0.8rem;
+  height: 1.5rem;
+  width: 6rem;
   margin: auto 0.8rem auto 0.1rem;
+  background: #a8a8a8;
+  border: white  0.1rem solid;
+  border-radius: 0.2rem;
+  background: #e4e4e4;
+  border-radius: 10px;
 }
 
 .task p {
@@ -255,10 +257,20 @@ li {
 
 #idea-board-btn {
   position: absolute;
+  background: white;
   width: 80px;
   left: 60%;
   line-height: 20px;
   top: 12px;
+  font-size: 0.8rem;
+  height: 1.5rem;
+  width: 6rem;
+  margin: auto 0.8rem auto 0.1rem;
+  background: #a8a8a8;
+  border: white  0.1rem solid;
+  border-radius: 0.2rem;
+  background: #e4e4e4;
+  border-radius: 10px;
 }
 
 #idea-window {
