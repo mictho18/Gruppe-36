@@ -9,11 +9,20 @@
     <div id="user">John Doe</div>
       <button type="button" id="idea-board-btn">Idea board</button>
 
-        <div class="add-task-container">
+       <div class="add-task-container">
             <input type="text" maxlength="12" id="taskText" placeholder="New Task..." onkeydown="if (event.keyCode == 13)
                                   document.getElementById('add').click()">
             <button id="add" class="button add-button" onclick="addTask()">Add New Task</button>
-        </div>
+        </div> 
+        
+        <!--- <div class="add-task-container">
+            <input type="text" maxlength="12" placeholder="New task... " id="taskText">
+            <button class="button add-button" id="add" disabled>Add New Task</button>
+          </div> 
+
+          <input type="text" id="taskText" onkeydown="if (event.keyCode == 13)" onkeyup="success()" placeholder="Add new task..."></input>
+          <button type="submit" id="add" disabled>Send</button> -->
+         
                 
     </header>
 <body>
