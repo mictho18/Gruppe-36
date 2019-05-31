@@ -83,3 +83,5 @@ mydiv. appendChild(div);
 div. className ="dynamicDiv";
 div. innerHTML = "<input type='text' name='mytext[]' value='mytext' />";
 }
+
+
