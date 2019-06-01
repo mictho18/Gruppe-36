@@ -44,7 +44,7 @@ board {
 
 h1,
 h4 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 header h1 {
@@ -53,7 +53,7 @@ header h1 {
 }
 
 p {
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 a,
@@ -168,13 +168,15 @@ li {
 * {
   font-family: "Open Sans", sans-serif;
 }
+
+/*
 .button {
   font-weight: 700;
   color: yellow;
   padding: 0.6rem 1rem;
   margin-bottom: 0.3rem;
   cursor: pointer;
-}
+} */
 
 .delete-button {
   background-color: #fd4141;
