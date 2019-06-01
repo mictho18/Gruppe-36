@@ -80,7 +80,7 @@ a:hover {
   align-items: flex-start;
   margin: 0px;
   position: absolute;
-  left: 19.25%;
+  left: 100px;
   top: 12px;
 }
 
@@ -211,7 +211,7 @@ li {
 }
 
 .add-button:hover {
-  background: darkcyan ;
+  background: #0066aa;
 }
 
 .task {
@@ -300,7 +300,7 @@ li {
   background:  #e4e4e4;
   color: #6b6868;
   width: 80px;
-  left: 10%;
+  right: 100px;
   line-height: 20px;
   top: 12px;
   font-size: 0.8rem;
