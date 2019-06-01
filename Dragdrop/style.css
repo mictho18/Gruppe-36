@@ -126,7 +126,6 @@ a:hover {
 .column-header h4 {
   text-align: center;
   position: relative;
-  top: -8px;
 }
 
 .to-do-column .column-header {
@@ -227,7 +226,7 @@ li {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   margin: 0.5rem;
-  min-height: 2rem;
+  min-height: 3.5rem;
   height: auto;
   cursor: move;
   border-radius: 10px;
