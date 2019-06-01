@@ -2,8 +2,17 @@
 $(document).ready(function(){
     $('#idea-board-btn').click(function(){
       $('#idea-window').toggle();
+
+      var $this = $(this);
+    $this.toggleClass('idea-board-btn');
+    if($this.hasClass('idea-board-btn')){
+        $this.text('Close Board');         
+    } else {
+        $this.text('Idea Board');
+    }
     });
   });
+
 
 // Create draggable idea element
 $(function() {

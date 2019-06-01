@@ -284,6 +284,13 @@ li {
   filter: alpha(opacity=20);
 }
 
+/* Color blind button */
+#changeColor {
+  position: absolute;
+  bottom: 10px;
+  right: 50px;
+}
+
 /* IDEA WINDOW */
 
 #idea-board-btn {
@@ -304,6 +311,10 @@ li {
   border-radius: 0.2rem;
   border-radius: 10px;  
   outline: none; 
+}
+
+#idea-board-btn:hover {
+  background-color:  #eeeeee;
 }
 
 #idea-window {
