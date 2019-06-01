@@ -2,6 +2,7 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="style_idea.css">
   <title>Nova Kanban</title>
 </head>
 <header id="header">
@@ -70,7 +71,7 @@
           </li>
         </ul>
       </li>
-      <!-- HIDE TRASH
+      
       <li class="column trash-column">
         <div class="column-header">
           <h4>Trash</h4>
@@ -85,19 +86,20 @@
         
         </ul>
         <div class="column-button">
+          <hr>
           <button class="button delete-button" onclick="emptyTrash()">Delete</button>
         </div>
       </li>
-    -->
+    
     </ul>
   </div>
-
 </board>
 
 <div id="idea-window">
     <div class="idea-container">
             <button id="new-idea-btn">Create new idea</button> 
             </div>                
+            <div id="idea-trash"></div>
     </div>
 </div>
 

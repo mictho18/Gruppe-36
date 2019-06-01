@@ -28,9 +28,21 @@ dragula([
     /* Clear task text from input after adding task */
     document.getElementById("taskText").value = "";
   }
-  
-  /* Vanilla JS to delete tasks in 'Trash' column */
+  // Delete item on trash can drop  
+
+  $(function() {
+  $(".task").draggable();
+
+  $('#delete-task').droppable({
+      drop: function(event, ui) {
+          $(ui.draggable).remove();
+      }
+  });
+});
+
+  // Vanilla JS to delete tasks in 'Trash' column 
   function emptyTrash() {
-    /* Clear tasks from 'Trash' column */
+    // Clear tasks from 'Trash' column 
     document.getElementById("trash").innerHTML = "";
+    
   }
