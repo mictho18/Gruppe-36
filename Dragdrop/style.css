@@ -180,6 +180,7 @@ li {
   background-color: #fd4141;
   color: #fff;
   margin: 0.1rem auto 0.6rem auto;
+  outline: none; 
 }
 
 .delete-button:hover {
@@ -202,6 +203,7 @@ li {
   box-shadow: 0 0 3px rgba(92, 92, 92, 0.2);
   font-size:20px;
   cursor: pointer;
+  outline: none; 
 }
 
 .add-button:hover {
@@ -296,6 +298,7 @@ li {
   border: white  0.1rem solid;
   border-radius: 0.2rem;
   border-radius: 10px;  
+  outline: none; 
 }
 
 #idea-window {
@@ -316,6 +319,7 @@ li {
   left: 50%;
   margin-left: -60px;
   top: 20px;
+  outline: none; 
 }
 
 .idea-container {
