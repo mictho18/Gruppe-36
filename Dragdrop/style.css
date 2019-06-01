@@ -357,4 +357,15 @@ li {
   width: 10px;
 }
 
+#idea-trash {
+  position: absolute;
+  bottom: 7rem;
+  right: 7rem;
+  width: 60px;
+  height: 60px;
+  background-image: url("images/delete.png");
+  background-position: center;
+  background-size: 60px;
+}
+
 /* */
