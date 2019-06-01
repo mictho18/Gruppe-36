@@ -245,6 +245,7 @@ li {
   border-radius: 0.2rem;
   background: #e4e4e4;
   border-radius: 10px;
+  outline: 0;
 }
 
 .task p {
