@@ -8,7 +8,7 @@ $(document).ready(function(){
 // Create draggable idea element
 $(function() {
     $('#new-idea-btn').on("click", function(){
-        var newDiv = $('<div class="idea-content" contentEditable="true" data-text="Enter text here"></div>');
+        var newDiv = $('<div class="idea-content" contentEditable="true" data-text="Enter New Idea . . ."></div>');
     $(".idea-container").append(newDiv);
     $( ".idea-content" ).draggable();
     $(".idea-content").bind("keydown", function(event) {
