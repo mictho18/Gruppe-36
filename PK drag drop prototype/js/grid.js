@@ -50,7 +50,7 @@
   var itemElem = document.createElement('div');
   var itemTemplate = '' +
       '<div class="board-item">' +
-      '<div class="board-item-content">' + '<button>button</button>' +
+      '<div class="board-item-content">' +
       '<p class="board-title">' + 
       '</div>' +
       '</div>';
@@ -83,5 +83,3 @@ mydiv. appendChild(div);
 div. className ="dynamicDiv";
 div. innerHTML = "<input type='text' name='mytext[]' value='mytext' />";
 }
-
-

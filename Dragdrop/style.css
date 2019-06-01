@@ -53,7 +53,7 @@ header h1 {
 }
 
 p {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 a,
@@ -79,7 +79,8 @@ a:hover {
   align-items: flex-start;
   margin: 0px;
   position: absolute;
-  left: 10%;
+  left: 19.25%;
+  top: 12px;
 }
 
 .container {
@@ -120,7 +121,7 @@ a:hover {
   padding: 0.1rem;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  height: 3rem;
+  color: white;
 }
 
 .column-header h4 {
@@ -186,15 +187,25 @@ li {
 }
 
 .add-button {
-  background-color: #ffcb1e;
-  padding: 0 1rem;
-  height: 1.8rem;
-  width: 10rem;
-  margin-top: 0.6rem;
+  z-index: 1;
+  right: 10px;
+  top: 10px;
+  display:block;
+  width:30px;
+  height:30px;
+  line-height:25px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  color: #fff;
+  background: #4A9FF9;
+  text-align:center;
+  box-shadow: 0 0 3px rgba(92, 92, 92, 0.2);
+  font-size:20px;
+  cursor: pointer;
 }
 
 .add-button:hover {
-  background-color: #ffdd6e;
+  background: darkcyan ;
 }
 
 .task {
@@ -223,9 +234,15 @@ li {
   background: white;
   text-align: center;
   font-family: "Poppins", sans-serif;
-  height: 2rem;
-  width: 7rem;
+  font-size: 0.8rem;
+  height: 1.5rem;
+  width: 6rem;
   margin: auto 0.8rem auto 0.1rem;
+  background: #a8a8a8;
+  border: white  0.1rem solid;
+  border-radius: 0.2rem;
+  background: #e4e4e4;
+  border-radius: 10px;
 }
 
 .task p {
@@ -259,3 +276,76 @@ li {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
   filter: alpha(opacity=20);
 }
+
+/* IDEA WINDOW */
+
+#idea-board-btn {
+  position: absolute;
+  font-size: 0.8rem;
+  text-align: center;
+  background:  #e4e4e4;
+  color: #6b6868;
+  width: 80px;
+  left: 10%;
+  line-height: 20px;
+  top: 12px;
+  font-size: 0.8rem;
+  height: 1.85rem;
+  width: 6rem;
+  margin: auto 0.8rem auto 0.1rem;
+  border: white  0.1rem solid;
+  border-radius: 0.2rem;
+  border-radius: 10px;  
+}
+
+#idea-window {
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50px;
+  bottom: 0;
+  overflow: auto;
+  background: rgb(208, 248, 239);
+  z-index: 4;
+}
+
+#new-idea-btn {
+  position: absolute;
+  width: 120px;
+  left: 50%;
+  margin-left: -60px;
+  top: 20px;
+}
+
+.idea-container {
+  overflow: auto;
+}
+
+.idea-content {
+  float: left;
+  position: absolute;
+  overflow: auto;
+  min-height: 30px;
+  min-width: 150px;
+  max-width: 100%;
+  max-height: 100%;
+  left: 50%;
+  margin-left: -75px;
+  top: 60px;
+  padding: 10px;
+  background: #fff;
+  border-radius: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 1px 1px 5px 0 rgba(92, 92, 92, 0.2);
+}
+
+#idea-edit-btn {
+  position: absolute;
+  right: 5px;
+  height: 10px;
+  width: 10px;
+}
+
+/* */

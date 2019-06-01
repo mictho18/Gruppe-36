@@ -1,0 +1,282 @@
+#header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    background: #e2e2e2;
+}
+
+#logo {
+    font-size: 20px;
+    position: absolute;
+    left: 10px;
+    top: 15px;
+}
+
+#user {
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+
+#sidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    top: 50px;
+    width: 50px;
+    height: 100%;
+    overflow: hidden;
+    background: rgb(187, 219, 255);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    
+}
+
+main {
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    right: 0;
+    bottom: 0;
+    overflow: auto;
+    background: rgb(208, 227, 248);
+}
+
+#ideas {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: #e2e2e2;
+    border-radius: 50%;
+    left: 5px;
+    top: 10px;
+    font-size: 10px;
+    line-height: 40px;
+    text-align: center;
+}
+
+#side-todo {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: #e2e2e2;
+    border-radius: 50%;
+    left: 5px;
+    top: 60px;
+    font-size: 10px;
+    line-height: 40px;
+    text-align: center;
+}
+
+#side-doing {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: #e2e2e2;
+    border-radius: 50%;
+    left: 5px;
+    top: 110px;
+    font-size: 10px;
+    line-height: 40px;
+    text-align: center;
+}
+
+#side-done {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: #e2e2e2;
+    border-radius: 50%;
+    left: 5px;
+    top: 160px;
+    font-size: 10px;
+    line-height: 40px;
+    text-align: center;
+}
+
+/* Muuri */
+
+.board {
+    position: relative;
+    margin-left: 1%;
+}
+
+.board-column {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 20px;
+    width: 30%;
+    margin: 2.5% 1.5%;
+    background: #e2e2e2;
+    z-index: 1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.board-column.muuri-item-releasing {
+    z-index: 2;
+}
+.board-column.muuri-item-dragging {
+    z-index: 3;
+    cursor: move;
+}
+
+.board-column-header {
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    overflow: hidden;
+    padding: 0 20px;
+    text-align: center;
+    background: #333;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+/*
+@media (max-width: 600px) {
+    .board-column-header {
+        text-indent: -1000px;
+    }
+}
+*/
+.board-column.todo .board-column-header {
+    background: #4A9FF9;
+}
+.board-column.doing .board-column-header {
+    background: #f9944a;
+}
+.board-column.done .board-column-header {
+    background: #2ac06d;
+}
+
+.board-column-content {
+    position: relative;
+    border: 10px solid transparent;
+    min-height: 30px;
+}
+
+.board-item {
+    position: absolute;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.board-item.muuri-item-releasing {
+    z-index: 2;
+}
+.board-item.muuri-item-dragging {
+    z-index: 3;
+    cursor: move;
+}
+.board-item.muuri-item-hidden {
+    z-index: 0;
+}
+
+.board-item-content {
+    position: relative;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px 0 rgba(92, 92, 92, 0.2);
+}
+
+.btn {
+    position: absolute;
+    z-index: 1;
+    right: 10px;
+    top: 10px;
+    display:block;
+    width:30px;
+    height:30px;
+    line-height:25px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    color: #fff;
+    background: #4A9FF9;
+    text-align:center;
+    box-shadow: 0 0 3px rgba(92, 92, 92, 0.2);
+    font-size:20px;
+    cursor: pointer;
+}
+.btn:hover {
+    background: rgb(122, 179, 240);
+}
+
+
+/*
+@media (max-width: 600px) {
+    .board-item-content {
+        text-align: center;
+    }
+}
+*/
+
+
+
+
+
+
+/* Semi working 
+.grid {
+    position: relative;
+}
+
+.item {
+    display: block;
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    margin: 15px;
+    padding: 15px;
+    z-index: 1;
+    text-align: center;
+}
+
+.item.muuri-item-dragging {
+    z-index: 3;
+}
+
+.item.muuri-item-releasing {
+    z-index: 2;
+}
+
+.item.muuri-item-hidden {
+    z-index: 0;
+}
+
+.item.muuri-item-dragging .item-content {
+    background: #8993a2;
+}
+
+.item-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    color: #fff;
+    background: #59687d;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+
+*/
