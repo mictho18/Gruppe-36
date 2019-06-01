@@ -306,8 +306,9 @@ li {
   top: 50px;
   bottom: 0;
   overflow: auto;
-  background: rgb(208, 248, 239);
-  z-index: 4;
+  background-image: url("https://images.pexels.com/photos/159770/black-board-chalk-traces-school-159770.jpeg");
+  background-size: cover;
+  background-position: center;
 }
 
 #new-idea-btn {
@@ -316,6 +317,10 @@ li {
   left: 50%;
   margin-left: -60px;
   top: 20px;
+}
+
+[contentEditable=true]:empty:not(:focus):before{
+  content:attr(data-text)
 }
 
 .idea-container {
