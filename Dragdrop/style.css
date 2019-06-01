@@ -178,7 +178,7 @@ li {
 */
 
 .delete-button {
-  background-color: #fd4141;
+  background: #fd4141;
   color: #fff;
   padding: 0.6rem 1rem;
   margin: 0.1rem auto 0.6rem auto;
@@ -188,7 +188,7 @@ li {
 }
 
 .delete-button:hover {
-  background-color: #fa7070;
+  background: #fa7070;
 }
 
 .add-button {
@@ -285,7 +285,7 @@ li {
 }
 
 /* Color blind button */
-#changeColor {
+#change-color-btn {
   position: absolute;
   bottom: 10px;
   right: 50px;

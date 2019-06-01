@@ -41,19 +41,3 @@ dragula([
     document.getElementById("trash").innerHTML = "";
     
   }
-
-
-// Change color
-
-document.getElementsByClassName('column-header'); 
-var currentColor = '#ff872f';
-function changeColor() { 
-        if(currentColor === '#ff872f'){ 
-    document.getElementsByClassName.style.background === 'green';
-    currentColor === 'green';
-        } else {
-        document.getElementsByClassName.style.background === '#ff872f';
-        currentColor === '#ff872f';
-        } 
-            return currentColor; 
-    }
