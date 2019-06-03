@@ -18,18 +18,16 @@ removeOnSpill: false
     container.className.replace("ex-over", "");
   });
 
-function addTask() {
-  /* Get task text from input */
+    
+/* Vanilla JS to add a new task */
+  function addTask() {
+  /* Get task text from input  */
   var inputTask = document.getElementById("taskText").value;
-  if (document.getElementById("taskText").value === "") {
-    document.getElementById("add").disabled = true;
-  } else {
-    /* Add task to the 'To Do' column */
-    document.getElementById("to-do").innerHTML +=
-      "<li class='task'><p>" + inputTask + "</p></li>";
-    /* Clear task text from input after adding task */
-    document.getElementById("taskText").value = "";
-  }
+  /* Add task to the 'To Do' column  */
+  document.getElementById("to-do").innerHTML +=
+    "<li class='task' contentEditable='true'><p>" + inputTask + "</p></li>";
+  /* Clear task text from input after adding task */
+  document.getElementById("taskText").value = "";
 }
 
 // Delete tasks in trash column

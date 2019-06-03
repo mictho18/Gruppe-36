@@ -166,15 +166,6 @@ li {
 * {
   font-family: "Open Sans", sans-serif;
 }
-/*
-.button {
-  font-weight: 700;
-  color: yellow;
-  padding: 0.6rem 1rem;
-  margin-bottom: 0.3rem;
-  cursor: pointer;
-}
-*/
 
 .delete-button {
   background: #ff4444;
@@ -251,11 +242,13 @@ li {
   outline: 0;
 }
 
+#taskText:hover{
+  background-color: #eeeeee;
+}
+
 .task p {
   margin: auto;
 }
-
-/* Dragula CSS Release 3.2.0 from: https://github.com/bevacqua/dragula */
 
 .gu-mirror {
   position: fixed !important;
