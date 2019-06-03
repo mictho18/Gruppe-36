@@ -87,7 +87,7 @@
         </ul>
         <div class="column-button">
           <hr>
-          <button class="delete-button" onclick="emptyTrash()">Delete</button>
+          <button class="delete-button" onclick="promptDelete()">Delete</button>
         </div>
       </li>
     
@@ -97,14 +97,18 @@
 
 <div id="idea-window">
     <div class="idea-container">
-            <button id="new-idea-btn">Create New Idea</button> 
+            <button id="new-idea-btn">Create new idea</button> 
             </div>                
             <div id="idea-trash"></div>
     </div>
 </div>
 <!--Colorblind button-->
-<div id="change-color-btn">Colorblind?
+<div id="colorblind">
+  <p id="color-blind-text">Click if you are color blind</p>
+<label id="color-switch">
   <input type="checkbox"></input>
+  <span class="slider round"></span>
+</label>
 </div>
 
 
