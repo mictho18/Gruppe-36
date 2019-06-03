@@ -1,7 +1,7 @@
 /* HEADER */
 
-@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 
 #header {
   position: absolute;
@@ -11,7 +11,6 @@
   height: 50px;
   overflow: hidden;
   background: #343a40;
-
 }
 
 #logo {
@@ -167,15 +166,6 @@ li {
 * {
   font-family: "Open Sans", sans-serif;
 }
-/*
-.button {
-  font-weight: 700;
-  color: yellow;
-  padding: 0.6rem 1rem;
-  margin-bottom: 0.3rem;
-  cursor: pointer;
-}
-*/
 
 .delete-button {
   background: #fd4141;
@@ -184,7 +174,7 @@ li {
   margin: 0.1rem auto 0.6rem auto;
   cursor: pointer;
   border-radius: 10px;
-  outline: none; 
+  outline: none;
 }
 
 .delete-button:hover {
@@ -195,19 +185,19 @@ li {
   z-index: 1;
   right: 10px;
   top: 10px;
-  display:block;
-  width:30px;
-  height:30px;
-  line-height:25px;
+  display: block;
+  width: 30px;
+  height: 30px;
+  line-height: 25px;
   border: 2px solid #fff;
   border-radius: 50%;
   color: #fff;
-  background: #4A9FF9;
-  text-align:center;
+  background: #4a9ff9;
+  text-align: center;
   box-shadow: 0 0 3px rgba(92, 92, 92, 0.2);
-  font-size:20px;
+  font-size: 20px;
   cursor: pointer;
-  outline: none; 
+  outline: none;
 }
 
 .add-button:hover {
@@ -245,7 +235,7 @@ li {
   width: 6rem;
   margin: auto 0.8rem auto 0.1rem;
   background: #a8a8a8;
-  border: white  0.1rem solid;
+  border: white 0.1rem solid;
   border-radius: 0.2rem;
   background: #e4e4e4;
   border-radius: 10px;
@@ -255,8 +245,6 @@ li {
 .task p {
   margin: auto;
 }
-
-/* Dragula CSS Release 3.2.0 from: https://github.com/bevacqua/dragula */
 
 .gu-mirror {
   position: fixed !important;
@@ -297,7 +285,7 @@ li {
   position: absolute;
   font-size: 0.8rem;
   text-align: center;
-  background:  #e4e4e4;
+  background: #e4e4e4;
   color: #6b6868;
   width: 80px;
   right: 100px;
@@ -307,14 +295,14 @@ li {
   height: 1.85rem;
   width: 6rem;
   margin: auto 0.8rem auto 0.1rem;
-  border: white  0.1rem solid;
+  border: white 0.1rem solid;
   border-radius: 0.2rem;
-  border-radius: 10px;  
-  outline: none; 
+  border-radius: 10px;
+  outline: none;
 }
 
 #idea-board-btn:hover {
-  background-color:  #eeeeee;
+  background-color: #eeeeee;
 }
 
 #idea-window {
@@ -336,7 +324,7 @@ li {
   left: 50%;
   margin-left: -60px;
   top: 20px;
-  outline: none; 
+  outline: none;
 
   background: white;
   text-align: center;
@@ -345,15 +333,15 @@ li {
   height: 1.5rem;
   width: 8rem;
   background: #a8a8a8;
-  border: white  0.1rem solid;
+  border: white 0.1rem solid;
   border-radius: 0.2rem;
   background: #e4e4e4;
   border-radius: 10px;
   outline: 0;
 }
 
-[contentEditable=true]:empty:not(:focus):before{
-  content:attr(data-text)
+[contentEditable="true"]:empty:not(:focus):before {
+  content: attr(data-text);
 }
 
 .idea-container {
@@ -385,7 +373,7 @@ li {
   height: 1.5rem;
   width: 8rem;
   background: #a8a8a8;
-  border: white  0.1rem solid;
+  border: white 0.1rem solid;
   border-radius: 0.2rem;
   background: #e4e4e4;
   border-radius: 10px;
@@ -409,5 +397,3 @@ li {
   background-position: center;
   background-size: 60px;
 }
-
-/* */
