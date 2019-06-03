@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="Assets/Kanban/CSS/Kanban_style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <title>Nova Kanban</title>
+</head>
+<header id="header">
+	<a href="Index.html"><img id="logo" src="https://i.imgur.com/8KVJEap.png"/></a>
+    <div id="nova">Nova</div>
+    <div id="user">John Doe</div>
+      <button type="button" class="button add-button" id="idea-board-btn">Idea Board</button>
+        <div class="add-task-container">
+            <input type="text" maxlength="12" id="taskText" placeholder="Add Task . . ." onkeydown="if (event.keyCode == 13)
+                                  document.getElementById('add').click()">
+            <button id="add" class="button add-button" onclick="addTask()"><i class ="fas fa-plus"></i></button>
+        </div>      
+    </header>
+<body>
+<board>
+  
+  <div class="container">
+    <ul class="columns">
+  
+      <li class="column to-do-column">
+        <div class="column-header">
+          <h4>To Do</h4>
+        </div>
+        <ul class="task-list" id="to-do">
+          <li class="task">
+            <p>Analysis</p><span id='editspan'><button id='modalBtn'><i class='fas fa-pencil-alt'></i></button></span>
+          </li>
+          <li class="task">
+            <p>Coding</p><span id='editspan'><button id='modalBtn'><i class='fas fa-pencil-alt'></i></button></span>
+          </li>
+          <li class="task">
+            <p>Card Sorting</p><span id='editspan'><button id='modalBtn'><i class='fas fa-pencil-alt'></i></button></span>
+          </li>
+          <li class="task">
+            <p>Measure</p><span id='editspan'><button id='modalBtn'><i class='fas fa-pencil-alt'></i></button></span>
+          </li>
+        </ul>
+      </li>
+  
+      <li class="column doing-column">
+        <div class="column-header">
+          <h4>Doing</h4>
+        </div>
+        <ul class="task-list" id="doing">
+          <li class="task">
+            <p>Hypothesis</p><span id='editspan'><button id='modalBtn'><i class='fas fa-pencil-alt'></i></button></span>
+          </li>
+          <li class="task">
+            <p>User Testing</p><span id='editspan'><button id='modalBtn'><i class='fas fa-pencil-alt'></i></button></span>
+          </li>
+          <li class="task">
+            <p>Prototype</p><span id='editspan'><button id='modalBtn'><i class='fas fa-pencil-alt'></i></button></span>
+          </li>
+        </ul>
+      </li>
+  
+      <li class="column done-column">
+        <div class="column-header">
+          <h4>Done</h4>
+        </div>
+        <ul class="task-list" id="done">
+          <li class="task">
+            <p>Ideation</p><span id='editspan'><button id='modalBtn'><i class='fas fa-pencil-alt'></i></button></span>
+          </li>
+          <li class="task">
+            <p>Sketches</p><span id='editspan'><button id='modalBtn'><i class='fas fa-pencil-alt'></i></button></span>
+          </li>
+        </ul>
+      </li>
+      
+      <li class="column trash-column">
+        <div class="column-header">
+          <h4>Trash</h4>
+        </div>
+        <ul class="task-list" id="trash">
+          <li class="task">
+            <p>Interviews</p><span id='editspan'><button id='modalBtn'><i class='fas fa-pencil-alt'></i></button></span>
+          </li>
+          <li class="task">
+            <p>Research</p><span id='editspan'><button id='modalBtn'><i class='fas fa-pencil-alt'></i></button></span>
+          </li>
+        
+        </ul>
+        <div class="column-button">
+          <hr>
+          <button class="delete-button" onclick="promptDelete()">Delete</button>
+        </div>
+      </li>
+    
+    </ul>
+  </div>
+</board>
+
+<div id="idea-window">
+    <div class="idea-container">
+            <button id="new-idea-btn">Create new idea</button> 
+            </div>                
+            <div id="idea-trash"></div>
+    </div>
+</div>
+
+<button onclick="window.location.href='Game.html'" type="button" class="button add-button" id="procrastinate-btn">Procrastinate</button>
+
+<!--Colorblind button-->
+<div id="colorblind">
+  <p id="color-blind-text">Click if you are color blind</p>
+<label id="color-switch">
+  <input type="checkbox"></input>
+  <span class="slider round"></span>
+</label>
+</div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+      <div class="modal-header">
+        <span class="close">&times;</span>
+        <h2>Information</h2>
+       </div>
+    <form class="modal-body">
+        <h3>Description</h3>
+        <textarea id="msg" name="user_message" placeholder="Add description of the card"></textarea>
+        <h3>Assigned to:</h3>
+        <select name="Assign to">
+        <option value="None">None</option>
+        <option value="Thomas">Thomas</option>
+        <option value="Jonas">Jonas</option>
+        <option value="Per-Kristian">Per-Kristian</option>
+        <option value="Martynias">Martynias</option>
+        </select>
+        <h3>Priority</h3>
+        <select name="Priority">
+        <option value="None">None</option>
+        <option value="Critical">Critical</option>
+        <option value="High">High</option>
+        <option value="Normal">Normal</option>
+        <option value="Low">Low</option>
+        </select>
+        <h3>Date of completion</h3>
+        <input type="date" name="dateOfCompletion">
+        </select>
+    </form>
+    <div class="modal-footer">
+  </div>
+  </div>
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.2/dragula.min.js"></script>
+<script src="Assets/Kanban/JS Scripts/Kanban_main.js"></script>
+<script src="Assets/Kanban/JS Scripts/Kanban_idea.js"></script>
+<script src="Assets/Kanban/JS Scripts/Kanban_modal.js"></script>
+<script src="Assets/Kanban/JS Scripts/Kanban_colorblind.js"></script>
+</body>
+
+</html>
