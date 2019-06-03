@@ -242,6 +242,10 @@ li {
   outline: 0;
 }
 
+#taskText:hover{
+  background-color: #eeeeee;
+}
+
 .task p {
   margin: auto;
 }
