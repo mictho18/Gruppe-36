@@ -1,10 +1,10 @@
-body{
+body {
 	background-color: #232323;
 	margin: 0;
 	font-family: Arial, Helvetica;
 }
 
-button{
+button {
 	border: none;
 	background: none;
 	text-transform: uppercase;
@@ -19,12 +19,12 @@ button{
 	outline: none; 
 }
 
-button:hover{
+button:hover {
 	color: white;
 	background: steelblue;
 }
 
-h1{
+h1 {
 	text-align: center;
 	line-height: 1.1;
 	font-weight: normal;
@@ -37,29 +37,29 @@ h1{
 
 }
 
-#container{
+#container {
 
 	margin: 20px auto;
 	max-width: 600px;
 
 }
 
-#colorDisplay{
+#colorDisplay {
 	font-size: 200%;
 }
 
-#message{
+#message {
 	display: inline-block;
 	width: 20%;
 }
 
-#stripe{
+#stripe {
 	background-color: white;
 	height: 30px;
 	text-align: center;
 }
 
-.square{
+.square {
 
 	width: 30%;
 	background: blue;

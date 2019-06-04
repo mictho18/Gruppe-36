@@ -1,118 +1,128 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+<title>Nova Kanban</title>
+ <!--Star of imported CSS stylesheets--> 
   <link rel="stylesheet" type="text/css" href="Assets/Kanban/CSS/Kanban_style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-  <title>Nova Kanban</title>
+  <!--End of imported CSS stylesheets--> 
+  
 </head>
-<header id="header">
-	<a href="Index.html"><img id="logo" src="https://i.imgur.com/8KVJEap.png"/></a>
-    <div id="nova">Nova</div>
-    <div id="user">John Doe</div>
+
+<!--Start of header-->
+  <header id="header">
+	   <a href="Index.html"><img id="logo" src="https://i.imgur.com/8KVJEap.png"/></a>
+      <div id="nova">Nova</div>
+      <div id="user">John Doe</div>
       <button type="button" class="button add-button" id="idea-board-btn">Idea Board</button>
-        <div class="add-task-container">
-            <input type="text" maxlength="12" id="taskText" placeholder="Add Task . . ." onkeydown="if (event.keyCode == 13)
+      <div class="add-task-container">
+      <input type="text" maxlength="12" id="taskText" placeholder="Add Task . . ." onkeydown="if (event.keyCode == 13)
                                   document.getElementById('add').click()">
-            <button id="add" class="button add-button" onclick="addTask()"><i class ="fas fa-plus"></i></button>
-        </div>      
-    </header>
+      <button id="add" class="button add-button" onclick="addTask()"><i class ="fas fa-plus"></i></button>
+      </div>      
+  </header>
+  <!--End of header-->
+
 <body>
-<board>
-  
-  <div class="container">
-    <ul class="columns">
-  
-      <li class="column to-do-column">
-        <div class="column-header">
+
+  <!--Start of drag and drop board-->
+  <board>
+    <div class="container">
+      <ul class="columns">
+       <li class="column to-do-column">
+          <div class="column-header">
           <h4>To Do</h4>
-        </div>
-        <ul class="task-list" id="to-do">
+          </div>
+          <ul class="task-list" id="to-do">
           <li class="task">
-            <p>Analysis</p><span id='editspan'><button id='modalBtn'><i class='fas fa-pencil-alt'></i></button></span>
+          <p>Analysis</p><span id='editspan'><button id='modalBtn'><i class='fas fa-pencil-alt'></i></button></span>
           </li>
           <li class="task">
-            <p>Coding</p><span id='editspan'><button id='modalBtn'><i class='fas fa-pencil-alt'></i></button></span>
+          <p>Coding</p><span id='editspan'><button id='modalBtn'><i class='fas fa-pencil-alt'></i></button></span>
           </li>
           <li class="task">
-            <p>Card Sorting</p><span id='editspan'><button id='modalBtn'><i class='fas fa-pencil-alt'></i></button></span>
+          <p>Card Sorting</p><span id='editspan'><button id='modalBtn'><i class='fas fa-pencil-alt'></i></button></span>
           </li>
           <li class="task">
-            <p>Measure</p><span id='editspan'><button id='modalBtn'><i class='fas fa-pencil-alt'></i></button></span>
+          <p>Measure</p><span id='editspan'><button id='modalBtn'><i class='fas fa-pencil-alt'></i></button></span>
           </li>
-        </ul>
+          </ul>
       </li>
+
   
       <li class="column doing-column">
-        <div class="column-header">
+         <div class="column-header">
           <h4>Doing</h4>
-        </div>
-        <ul class="task-list" id="doing">
+          </div>
+          <ul class="task-list" id="doing">
           <li class="task">
-            <p>Hypothesis</p><span id='editspan'><button id='modalBtn'><i class='fas fa-pencil-alt'></i></button></span>
+          <p>Hypothesis</p><span id='editspan'><button id='modalBtn'><i class='fas fa-pencil-alt'></i></button></span>
           </li>
           <li class="task">
-            <p>User Testing</p><span id='editspan'><button id='modalBtn'><i class='fas fa-pencil-alt'></i></button></span>
+          <p>User Testing</p><span id='editspan'><button id='modalBtn'><i class='fas fa-pencil-alt'></i></button></span>
           </li>
           <li class="task">
-            <p>Prototype</p><span id='editspan'><button id='modalBtn'><i class='fas fa-pencil-alt'></i></button></span>
+          <p>Prototype</p><span id='editspan'><button id='modalBtn'><i class='fas fa-pencil-alt'></i></button></span>
           </li>
-        </ul>
+          </ul>
       </li>
   
       <li class="column done-column">
-        <div class="column-header">
+          <div class="column-header">
           <h4>Done</h4>
-        </div>
-        <ul class="task-list" id="done">
+          </div>
+          <ul class="task-list" id="done">
           <li class="task">
-            <p>Ideation</p><span id='editspan'><button id='modalBtn'><i class='fas fa-pencil-alt'></i></button></span>
+          <p>Ideation</p><span id='editspan'><button id='modalBtn'><i class='fas fa-pencil-alt'></i></button></span>
           </li>
           <li class="task">
-            <p>Sketches</p><span id='editspan'><button id='modalBtn'><i class='fas fa-pencil-alt'></i></button></span>
+          <p>Sketches</p><span id='editspan'><button id='modalBtn'><i class='fas fa-pencil-alt'></i></button></span>
           </li>
-        </ul>
+          </ul>
       </li>
       
       <li class="column trash-column">
-        <div class="column-header">
+          <div class="column-header">
           <h4>Trash</h4>
-        </div>
-        <ul class="task-list" id="trash">
+          </div>
+          <ul class="task-list" id="trash">
           <li class="task">
-            <p>Interviews</p><span id='editspan'><button id='modalBtn'><i class='fas fa-pencil-alt'></i></button></span>
+          <p>Interviews</p><span id='editspan'><button id='modalBtn'><i class='fas fa-pencil-alt'></i></button></span>
           </li>
           <li class="task">
-            <p>Research</p><span id='editspan'><button id='modalBtn'><i class='fas fa-pencil-alt'></i></button></span>
+          <p>Research</p><span id='editspan'><button id='modalBtn'><i class='fas fa-pencil-alt'></i></button></span>
           </li>
-        
-        </ul>
-        <div class="column-button">
+          </ul>
+          <div class="column-button">
           <hr>
           <button class="delete-button" onclick="promptDelete()">Delete</button>
-        </div>
+          </div>
       </li>
-    
-    </ul>
-  </div>
-</board>
-
-<div id="idea-window">
-    <div class="idea-container">
-            <button id="new-idea-btn">Create new idea</button> 
-            </div>                
-            <div id="idea-trash"></div>
+     </ul>
     </div>
-</div>
+  </board>
+  <!--End of drag and drop board--> 
 
-<button onclick="window.location.href='Game.html'" type="button" class="button add-button" id="procrastinate-btn">Procrastinate</button>
+  <!--Button for idea window--> 
+  <div id="idea-window">
+        <div class="idea-container">
+        <button id="new-idea-btn">Create new idea</button> 
+        </div>                
+        <div id="idea-trash"></div>
+  </div>
+   
 
-<!--Colorblind button-->
-<div id="colorblind">
-  <p id="color-blind-text">Click if you are color blind</p>
-<label id="color-switch">
-  <input type="checkbox"></input>
-  <span class="slider round"></span>
-</label>
+  <!--Button to procrastinate--> 
+  <button onclick="window.location.href='Game.html'" type="button" class="button add-button" id="procrastinate-btn">Procrastinate</button>
+
+  <!--Colorblind button-->
+  <div id="colorblind">
+      <p id="color-blind-text">Click if you are color blind</p>
+      <label id="color-switch">
+      <input type="checkbox"></input>
+      <span class="slider round"></span>
+      </label>
 </div>
 
 <!-- The Modal -->
@@ -150,20 +160,19 @@
     <div class="modal-footer">
   </div>
   </div>
+  <!--End of modal--> 
 
 
 
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.2/dragula.min.js"></script>
-<script src="Assets/Kanban/JS Scripts/Kanban_main.js"></script>
-<script src="Assets/Kanban/JS Scripts/Kanban_idea.js"></script>
-<script src="Assets/Kanban/JS Scripts/Kanban_modal.js"></script>
-<script src="Assets/Kanban/JS Scripts/Kanban_colorblind.js"></script>
+  <!--Imported scripts--> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.2/dragula.min.js"></script>
+  <script src="Assets/Kanban/JS Scripts/Kanban_main.js"></script>
+  <script src="Assets/Kanban/JS Scripts/Kanban_idea.js"></script>
+  <script src="Assets/Kanban/JS Scripts/Kanban_modal.js"></script>
+  <script src="Assets/Kanban/JS Scripts/Kanban_colorblind.js"></script>
+  <!--End of imported scripts--> 
 </body>
-
 </html>

@@ -1,3 +1,4 @@
+/*Varibles used in the game*/
 var numbOfSquares = 6;
 var colors = generateRandomColors(numbOfSquares)
 var squares = document.querySelectorAll(".square");
@@ -9,7 +10,7 @@ var resetButton = document.querySelector("#reset");
 var easyBtn = document.querySelector("#easyBtn");
 var hardBtn = document.querySelector("#hardBtn");
 
-
+/*Easy btn*/
 easyBtn.addEventListener("click", function(){
 	hardBtn.classList.remove("selected");
 	easyBtn.classList.add("selected");
@@ -26,6 +27,7 @@ easyBtn.addEventListener("click", function(){
 	}
 });
 
+/*Har btn*/
 hardBtn.addEventListener("click", function(){
 	easyBtn.classList.remove("selected");
 	hardBtn.classList.add("selected");
@@ -39,6 +41,7 @@ hardBtn.addEventListener("click", function(){
 	}
 });
 
+/*Reset button*/
 resetButton.addEventListener("click", function(){
 	//generate new colors
 	colors = generateRandomColors(numbOfSquares);
