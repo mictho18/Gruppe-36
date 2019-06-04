@@ -19,6 +19,27 @@ h1 {
 	font-size: 5em;
 }
 
+
+/*Sets color for Nova and text underneath on index page*/
+a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+/*Sets style for the line under nova on index page*/
+hr {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2)
+}
+
+
+/*Style for social media toolbar*/
+
+textarea {
+    resize: none;
+}
+
 /*set "Nova" and text underneath on index to center*/
 #content {
 	text-align: center;
@@ -37,33 +58,11 @@ h1 {
 
 
 
-/*Sets color for Nova and text underneath on index page*/
-a {
-	font-family: Arial, Helvetica, sans-serif;
-	color: white;
-}
-
-
-
-
 /*Sets color for "Nova" and text underneath  on index page*/
 #nova {
 	color: white;
 }
 
-/*Sets style for the line under nova on index page*/
-hr {
-    width: 400px;
-    border-top: 1px solid #f8f8f8;
-    border-bottom: 1px solid rgba(0,0,0,0.2)
-}
-
-
-/*Style for social media toolbar*/
-
-textarea {
-    resize: none;
-}
 
 .text {
   color: white;
