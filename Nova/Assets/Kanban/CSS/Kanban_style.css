@@ -275,7 +275,7 @@ li {
   background: #e4e4e4;
   color: #6b6868;
   width: 80px;
-  right: 200px;
+  right: 225px;
   line-height: 20px;
   top: 12px;
   font-size: 0.8rem;
@@ -337,7 +337,6 @@ li {
   margin-left: -60px;
   top: 20px;
   outline: none;
-
   background: white;
   text-align: center;
   font-family: "Poppins", sans-serif;
@@ -551,6 +550,7 @@ input:checked + .slider:before {
   display: inline-block;
   transition: 0.2s linear;
   border-radius: 15%;
+  cursor: pointer;
 
   }
 
