@@ -349,6 +349,7 @@ li {
   background: #e4e4e4;
   border-radius: 10px;
   outline: 0;
+  cursor: pointer;
 }
 
 [contentEditable="true"]:empty:not(:focus):before {
