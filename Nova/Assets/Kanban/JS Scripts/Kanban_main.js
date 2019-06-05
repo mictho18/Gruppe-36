@@ -23,12 +23,18 @@ removeOnSpill: false
   function addTask() {
   /* Get task text from input  */
   var inputTask = document.getElementById("taskText").value;
+  if(document.getElementById("taskText").value === ""){
+    alert("Please add a task")
+    }
+    else {
   /* Add task to the 'To Do' column  */
   document.getElementById("to-do").innerHTML +=
     "<li class='task'><p>" + inputTask + "</p><span id='editspan'><button id='modalBtn'><i class='fas fa-pencil-alt'></i></button></span></li>";
   /* Clear task text from input after adding task */
   document.getElementById("taskText").value = "";
+  }
 }
+
 
 // Delete tasks in trash column
 function promptDelete() {
