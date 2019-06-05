@@ -80,9 +80,9 @@ textarea {
 }
 
 .rounded-social-buttons {
-  position: absolute;
+  position: fixed;
   bottom: 0;
-  left: 43%;
+  left: 560px;
   bottom: 20px;
 }
 
