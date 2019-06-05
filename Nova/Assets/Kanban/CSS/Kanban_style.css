@@ -18,12 +18,13 @@
   height: 35px;
   width: 35px;
   bottom: 10px;
+  left: 10px;
 }
 
 #nova {
   font-size: 20px;
   position: absolute;
-  left: 35px;
+  left: 55px;
   top: 12px;
   color: white;
 }
@@ -60,7 +61,7 @@ board {
   align-items: flex-start;
   margin: 0px;
   position: absolute;
-  left: 100px;
+  left: 120px;
   top: 10px;
 }
 
