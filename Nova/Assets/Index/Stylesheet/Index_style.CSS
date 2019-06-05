@@ -46,7 +46,9 @@ textarea {
 	padding-top: 26%;
 	text-shadow: 0px 4px 3px black,
 				 0px 4px 13px grey,
-				 0px 12px 9px grey;
+         0px 12px 9px grey;
+  position: relative;
+  top: -60px;
 }
 
 
@@ -60,7 +62,7 @@ textarea {
 
 /*Sets color for "Nova" and text underneath  on index page*/
 #nova {
-	color: white;
+  color: white;
 }
 
 
