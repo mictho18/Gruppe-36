@@ -42,13 +42,13 @@
 board {
   position: fixed;
   top: 50px;
-  /* left: 50px; */
   left: 0;
   right: 0;
   bottom: 0;
   overflow: auto;
   width: 100%;
 }
+
 
 .add-task-container {
   display: -webkit-box;
@@ -214,7 +214,6 @@ li {
 }
 
 #taskText {
-  background: white;
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-size: 0.8rem;
@@ -362,7 +361,6 @@ li {
   margin-left: -60px;
   top: 20px;
   outline: none;
-  background: white;
   color: #000;
   text-align: center;
   font-family: "Poppins", sans-serif;

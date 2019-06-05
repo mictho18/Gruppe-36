@@ -10,7 +10,7 @@ button {
 	text-transform: uppercase;
 	height: 100%;
 	font-weight: 700;
-	color: steelblue;
+	color: #4682b4;
 	letter-spacing: 1px;
 	font-size: inherit;
 	transition: all 0.3s;
@@ -21,7 +21,7 @@ button {
 
 button:hover {
 	color: white;
-	background: steelblue;
+	background: #4682b4;
 }
 
 h1 {
@@ -29,7 +29,7 @@ h1 {
 	line-height: 1.1;
 	font-weight: normal;
 	color: white;
-	background: steelblue;
+	background: #4682b4;
 	margin: 0;
 	text-transform: uppercase;
 	padding-bottom: 20px;
@@ -62,7 +62,7 @@ h1 {
 .square {
 
 	width: 30%;
-	background: blue;
+	background: #4682b4;
 	padding-bottom: 28%;
 	float: left;
 	margin: 1.66%;
@@ -74,6 +74,6 @@ h1 {
 
 .selected{
 	color: white;
-	background: steelblue;
+	background: #4682b4;
 }
 
