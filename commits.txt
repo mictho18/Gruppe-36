@@ -1,0 +1,761 @@
+commit d56cf714e26b60e70615db783e1c8cc17ebe5192
+Author: perkristianv <pkvinje@hotmail.com>
+Date:   Thu Jun 6 10:34:29 2019 +0200
+
+    Give ID to ceated task
+
+commit 2f09adba5f13ce678bf2b69513dfb5d897ad5f40
+Merge: 35e4ca0 c5bb68d
+Author: perkristianv <pkvinje@hotmail.com>
+Date:   Wed Jun 5 16:25:08 2019 +0200
+
+    Merge branch 'master' of https://github.com/mictho18/Gruppe-36
+
+commit 35e4ca016b1e8c62e4d4b63cd1cb21bd9add5123
+Author: perkristianv <pkvinje@hotmail.com>
+Date:   Wed Jun 5 16:24:52 2019 +0200
+
+    centered nova
+
+commit c5bb68d59a95be0f073845cce4e9b1599e68d20f
+Author: Thomas Michelsengit config --global user.email thomas__michelsen@hotmail.comgit config --global user.name = mictho18 <thomas__michelsen@hotmail.com>
+Date:   Wed Jun 5 16:12:12 2019 +0200
+
+    Change colors except black and white to hex values
+
+commit 3444d22188edebf5894906b03abb8dd0e1c40cb5
+Author: perkristianv <pkvinje@hotmail.com>
+Date:   Wed Jun 5 15:23:13 2019 +0200
+
+    footer center
+
+commit b867b1aee57e39e3a858c4c196d6616fad946f01
+Merge: 6ed3f28 cb425aa
+Author: grojon18 <jonas.gronnerod@gmail.com>
+Date:   Wed Jun 5 14:52:30 2019 +0200
+
+    Merge branch 'master' of https://github.com/mictho18/Gruppe-36
+
+commit 6ed3f28364767c99d1c2f63067625b274f9db330
+Author: grojon18 <jonas.gronnerod@gmail.com>
+Date:   Wed Jun 5 14:52:26 2019 +0200
+
+    Edited card info
+
+commit cb425aad0b8944e6e28571fdb9cc1451f2c2b25c
+Author: Thomas Michelsengit config --global user.email thomas__michelsen@hotmail.comgit config --global user.name = mictho18 <thomas__michelsen@hotmail.com>
+Date:   Wed Jun 5 14:45:16 2019 +0200
+
+    Added script for login validation
+
+commit 976dabbc13c8c16a249edb072b24ccdba52e3cd1
+Author: Thomas Michelsengit config --global user.email thomas__michelsen@hotmail.comgit config --global user.name = mictho18 <thomas__michelsen@hotmail.com>
+Date:   Wed Jun 5 14:28:03 2019 +0200
+
+    Added script for login validation and centered footer.
+
+commit 2946c08ff493b95acd561308acb7ed8295dbcbd2
+Author: Thomas Michelsengit config --global user.email thomas__michelsen@hotmail.comgit config --global user.name = mictho18 <thomas__michelsen@hotmail.com>
+Date:   Wed Jun 5 13:37:18 2019 +0200
+
+    Removed needed to scroll on game
+
+commit 2f2039a25884f2fe36dba0ac04dc77df5227ec30
+Author: perkristianv <pkvinje@hotmail.com>
+Date:   Wed Jun 5 13:34:39 2019 +0200
+
+    Added alert message to add task
+
+commit 2a0cb2b1a2bbc2600649fa8031404c7508acaa3b
+Author: perkristianv <pkvinje@hotmail.com>
+Date:   Wed Jun 5 13:28:11 2019 +0200
+
+    Minor style adjustments
+
+commit 965b0fe549a41fe644bd036abb1a74ad0f3c6b22
+Merge: 9f982a8 20da3c5
+Author: perkristianv <pkvinje@hotmail.com>
+Date:   Wed Jun 5 13:10:04 2019 +0200
+
+    Merge branch 'master' of https://github.com/mictho18/Gruppe-36
+
+commit 9f982a801a8402ad01523e8dcc65b7c9adb08e34
+Author: perkristianv <pkvinje@hotmail.com>
+Date:   Wed Jun 5 13:09:58 2019 +0200
+
+    Minor position fixing
+
+commit 20da3c59985c2eff655938987175bfe78dade241
+Author: Thomas Michelsengit config --global user.email thomas__michelsen@hotmail.comgit config --global user.name = mictho18 <thomas__michelsen@hotmail.com>
+Date:   Wed Jun 5 12:55:58 2019 +0200
+
+    Added trashcan icon
+
+commit 3e41758abe6e46ac22f61062ff97016e4a606653
+Author: Thomas Michelsengit config --global user.email thomas__michelsen@hotmail.comgit config --global user.name = mictho18 <thomas__michelsen@hotmail.com>
+Date:   Wed Jun 5 12:35:45 2019 +0200
+
+    Added spacing on kanbanpage
+
+commit 74c2f85c8775143ced0a585d1f2e725b7458b4d7
+Author: mictho18 <42611107+mictho18@users.noreply.github.com>
+Date:   Tue Jun 4 19:01:40 2019 +0200
+
+    Update
+
+commit f6cf6c039ee554f0cf49da0d270cde9b7d4edbbf
+Author: mictho18 <42611107+mictho18@users.noreply.github.com>
+Date:   Tue Jun 4 18:59:27 2019 +0200
+
+    Smaller updates
+    
+    * Brought back the bootstrap.js for the dropdown menu to work.
+    
+    *Changed the generic text on About us page
+
+commit aba9ed827fd4b2a95b01e69146777bab936e1bec
+Author: mictho18 <42611107+mictho18@users.noreply.github.com>
+Date:   Tue Jun 4 16:15:57 2019 +0200
+
+    Update Kanban_style.css
+    
+    Added cursor pointer to create new idea button
+
+commit 3e5a36413996da9b2cf450e94c8047e22784c69a
+Author: mictho18 <42611107+mictho18@users.noreply.github.com>
+Date:   Tue Jun 4 16:12:02 2019 +0200
+
+    Nova V 1.01
+    
+    Minor changes on the layout of the kanbanpage. Added cursor over editbuttons and increased space between ideabord btn and procrast btn
+
+commit dfa20685d9d6d890fdb88ccd8325c04fb915143d
+Author: mictho18 <42611107+mictho18@users.noreply.github.com>
+Date:   Tue Jun 4 13:44:17 2019 +0200
+
+    Added comments
+    
+    Added comments and cleaned up the code
+
+commit c3a632a5f9c0f663aaa22873d330aa46371d8a94
+Author: mictho18 <42611107+mictho18@users.noreply.github.com>
+Date:   Mon Jun 3 18:32:14 2019 +0200
+
+    Clean up of Branch
+
+commit 200bf46baa25baaa56ae1b94aaa89dee501181fe
+Author: mictho18 <42611107+mictho18@users.noreply.github.com>
+Date:   Mon Jun 3 18:31:35 2019 +0200
+
+    Clean up of Branch
+
+commit 9471b2a6d904665b9dc47a482b75d94da51b544d
+Author: mictho18 <42611107+mictho18@users.noreply.github.com>
+Date:   Mon Jun 3 18:31:02 2019 +0200
+
+    Clean up of Branch
+
+commit 27e4f0616cbd94ff8a282afbfa7ab19f9b2372f9
+Author: mictho18 <42611107+mictho18@users.noreply.github.com>
+Date:   Mon Jun 3 18:28:09 2019 +0200
+
+    Clean up master branch
+
+commit 5795ec6fe1d26e0f42dc63d04be30bc1c5cdee4c
+Author: mictho18 <42611107+mictho18@users.noreply.github.com>
+Date:   Mon Jun 3 18:25:09 2019 +0200
+
+    Pages linked. all functions incorperated
+    
+    Nova V 1.0
+
+commit 76938bce9743f783665dfcb9e60d067d0c082e77
+Merge: 4b92b0e 322347c
+Author: perkristianv <pkvinje@hotmail.com>
+Date:   Mon Jun 3 13:36:49 2019 +0200
+
+    Merge branch 'master' of https://github.com/mictho18/Gruppe-36
+
+commit 4b92b0e2184e98108cb762992e3a9c108f2852f3
+Merge: a5f9ebc d7e00cc
+Author: perkristianv <pkvinje@hotmail.com>
+Date:   Mon Jun 3 13:36:31 2019 +0200
+
+    Merge branch 'master' of https://github.com/mictho18/Gruppe-36
+
+commit 322347c08c482c0218bb21e37d97ac290f7e4ee3
+Author: grojon18 <jonas.gronnerod@gmail.com>
+Date:   Mon Jun 3 13:34:15 2019 +0200
+
+    Small change
+    
+    Added cursor
+
+commit a5f9ebcedfeadba304d62e0e18dc6b340276f5c9
+Author: perkristianv <pkvinje@hotmail.com>
+Date:   Mon Jun 3 13:33:54 2019 +0200
+
+    Added colorblind button/colors. Added prompt to delete trash
+
+commit d7e00ccc11d41d0c30ac9dcfb1b0acf1daf79def
+Author: grojon18 <jonas.gronnerod@gmail.com>
+Date:   Mon Jun 3 13:24:52 2019 +0200
+
+    Added hover effect
+
+commit 90a56cdfc2392f23af6bebf35b0627d67e9364de
+Author: grojon18 <jonas.gronnerod@gmail.com>
+Date:   Mon Jun 3 12:54:44 2019 +0200
+
+    Small changes
+
+commit 5ac228ddcf862a8ca6c40c59b0249b55d9b91149
+Merge: cf8aea6 2d2f93f
+Author: perkristianv <pkvinje@hotmail.com>
+Date:   Sat Jun 1 17:07:41 2019 +0200
+
+    Merge branch 'master' of https://github.com/mictho18/Gruppe-36
+
+commit cf8aea68d99af8d72a6862fedbedc34cc94912ad
+Author: perkristianv <pkvinje@hotmail.com>
+Date:   Sat Jun 1 17:07:36 2019 +0200
+
+    Added option to change color
+
+commit 2d2f93f0d2b3cb64ced52beacd2ec5b630748d5b
+Author: grojon18 <jonas.gronnerod@gmail.com>
+Date:   Sat Jun 1 15:10:11 2019 +0200
+
+    Small changes
+    
+    Small changes to stylesheet
+
+commit 878c0c19ccf63906161e425b8e2147a7f96655e0
+Merge: a8cad39 644eeed
+Author: grojon18 <jonas.gronnerod@gmail.com>
+Date:   Sat Jun 1 14:28:27 2019 +0200
+
+    Merge branch 'master' of https://github.com/mictho18/Gruppe-36
+
+commit a8cad393954ef8a18a7c9a225a0fcdf554aa96ae
+Author: grojon18 <jonas.gronnerod@gmail.com>
+Date:   Sat Jun 1 14:28:13 2019 +0200
+
+    Small changes to design
+
+commit 644eeed6f5c935f962defe4bbefb8edaa98c8131
+Author: perkristianv <pkvinje@hotmail.com>
+Date:   Sat Jun 1 14:22:42 2019 +0200
+
+    Colorblindtest
+
+commit a9c49010fbcdd847492b6810b673c9db4e40f55f
+Merge: 868a6c4 ca9217c
+Author: perkristianv <pkvinje@hotmail.com>
+Date:   Sat Jun 1 13:30:49 2019 +0200
+
+    Merge branch 'master' of https://github.com/mictho18/Gruppe-36
+
+commit 868a6c46bf2f274e47524af69c30afa52a438eeb
+Author: perkristianv <pkvinje@hotmail.com>
+Date:   Sat Jun 1 13:30:40 2019 +0200
+
+    Update style.css
+
+commit ca9217c1581aa3138830722c0cd669673e971975
+Author: grojon18 <jonas.gronnerod@gmail.com>
+Date:   Sat Jun 1 13:10:15 2019 +0200
+
+    Updated fonts
+
+commit c1dff91676e5b4d05a686486aea930c53cd13cd4
+Merge: 3e82d51 f1a6f4b
+Author: grojon18 <jonas.gronnerod@gmail.com>
+Date:   Sat Jun 1 13:03:23 2019 +0200
+
+    Merge branch 'master' of https://github.com/mictho18/Gruppe-36
+
+commit 3e82d5151a97d44c6046f23973a65eb54e7faf79
+Author: grojon18 <jonas.gronnerod@gmail.com>
+Date:   Sat Jun 1 13:02:20 2019 +0200
+
+    Changed class name
+
+commit f1a6f4b08376d984b4ea9e3508d1b8a83ccc04ef
+Merge: 244ecc7 a7471c5
+Author: perkristianv <pkvinje@hotmail.com>
+Date:   Sat Jun 1 13:00:30 2019 +0200
+
+    Merge branch 'master' of https://github.com/mictho18/Gruppe-36
+
+commit 244ecc771988566a9105ccbe0d8288ff6de7c78d
+Author: perkristianv <pkvinje@hotmail.com>
+Date:   Sat Jun 1 13:00:12 2019 +0200
+
+    Update style.css
+
+commit a7471c57b4baa5d3e41a140a25fab45724d76462
+Author: Thomas Michelsengit config --global user.email thomas__michelsen@hotmail.comgit config --global user.name = mictho18 <thomas__michelsen@hotmail.com>
+Date:   Sat Jun 1 12:52:34 2019 +0200
+
+    Added outline 0 to tasktext
+
+commit bfa16481d053fcaf5d97005cd396e896b98cdf1b
+Author: perkristianv <pkvinje@hotmail.com>
+Date:   Sat Jun 1 12:44:49 2019 +0200
+
+    Update .DS_Store
+
+commit f2e99f37f372ab8da0863baf3c6f252844dd0459
+Merge: fe85556 23697e9
+Author: Thomas Michelsengit config --global user.email thomas__michelsen@hotmail.comgit config --global user.name = mictho18 <thomas__michelsen@hotmail.com>
+Date:   Sat Jun 1 12:42:59 2019 +0200
+
+    Merge branch 'master' of https://github.com/mictho18/Gruppe-36
+
+commit fe855562555988130d352581dad0939df78966b2
+Merge: 88f376d ebcf55b
+Author: Thomas Michelsengit config --global user.email thomas__michelsen@hotmail.comgit config --global user.name = mictho18 <thomas__michelsen@hotmail.com>
+Date:   Sat Jun 1 12:42:42 2019 +0200
+
+    Merge branch 'master' of https://github.com/mictho18/Gruppe-36
+
+commit 23697e90556caf81e9cb904afe56959666abfc91
+Author: perkristianv <pkvinje@hotmail.com>
+Date:   Sat Jun 1 12:42:37 2019 +0200
+
+    Added idea trash
+
+commit 88f376d98ca3c2c54f6506e9eda83923854ae649
+Author: Thomas Michelsengit config --global user.email thomas__michelsen@hotmail.comgit config --global user.name = mictho18 <thomas__michelsen@hotmail.com>
+Date:   Sat Jun 1 12:42:37 2019 +0200
+
+    Added 0 outline on buttons
+
+commit ebcf55bc0333889944d3b2edc3f8f33ac259e3eb
+Author: perkristianv <pkvinje@hotmail.com>
+Date:   Sat Jun 1 12:34:02 2019 +0200
+
+    Merge css files
+
+commit f593de07fb35f577fd97e89a660235226cc50133
+Merge: 697675c b25d689
+Author: perkristianv <pkvinje@hotmail.com>
+Date:   Sat Jun 1 12:31:59 2019 +0200
+
+    Merge branch 'master' of https://github.com/mictho18/Gruppe-36
+
+commit 697675ca8fbeee4b8c93b0abbf0b1b099d00fa88
+Author: perkristianv <pkvinje@hotmail.com>
+Date:   Sat Jun 1 12:26:38 2019 +0200
+
+    Idea and small fixes
+
+commit b25d6898af1f8e4d9dacc2e097ec4a0b570775c1
+Author: grojon18 <jonas.gronnerod@gmail.com>
+Date:   Fri May 31 16:13:38 2019 +0200
+
+    New version
+
+commit 84badf8b6a29fcac78a8b6e1cf4f7171f5d53d9d
+Merge: d582d6b edd92dd
+Author: xetrex <martyskole@gmailc.om>
+Date:   Fri May 31 15:03:08 2019 +0200
+
+    pulling master
+
+commit d582d6bfad9676ed363da47787abf48d58bbff79
+Author: xetrex <martyskole@gmailc.om>
+Date:   Fri May 31 14:59:29 2019 +0200
+
+    test
+
+commit 4cc043219a0372b274d037c12f8be914370b7375
+Author: Thomas Michelsengit config --global user.email thomas__michelsen@hotmail.comgit config --global user.name = mictho18 <thomas__michelsen@hotmail.com>
+Date:   Fri May 31 14:36:43 2019 +0200
+
+    Added bar for social media on index and about us
+    
+    Index and about us now have social media bar on the bottom of the page linking up to FB, Twitter, LI, Youtube and Instagram
+
+commit 2224bf0c8493f5439649bf74f485cfa343d1c570
+Author: Thomas Michelsengit config --global user.email thomas__michelsen@hotmail.comgit config --global user.name = mictho18 <thomas__michelsen@hotmail.com>
+Date:   Fri May 31 14:27:29 2019 +0200
+
+    Update .DS_Store
+
+commit 99d8960dbb27b9d4b6e8e1321a05e6fff5c3360a
+Author: grojon18 <jonas.gronnerod@gmail.com>
+Date:   Fri May 31 13:23:00 2019 +0200
+
+    Updated font
+
+commit 2146634e04f6acfd20bb722a10943b5a93b711c1
+Author: grojon18 <jonas.gronnerod@gmail.com>
+Date:   Fri May 31 13:14:59 2019 +0200
+
+    Fixed login page
+
+commit 52cf7dba268124d66490e2e062cc4d09b3a116d2
+Author: Thomas Michelsengit config --global user.email thomas__michelsen@hotmail.comgit config --global user.name = mictho18 <thomas__michelsen@hotmail.com>
+Date:   Fri May 31 12:54:31 2019 +0200
+
+    Nytt UI implementert
+    
+    Lagd nytt User Interface for applikasjonen. Inneholder ikke den nyeste versjonen av Kanban-applikasjonen(kjører fremdeles muri) eller Ide siden.
+
+commit edd92dddb7ded56cab636434c2391bfd67b9e53e
+Author: grojon18 <jonas.gronnerod@gmail.com>
+Date:   Fri May 31 12:50:13 2019 +0200
+
+    Fixed idea button layout
+
+commit 72279d196eaf4e660d25740b655e6ac25a98a035
+Author: grojon18 <jonas.gronnerod@gmail.com>
+Date:   Fri May 31 11:53:47 2019 +0200
+
+    Configured add button
+
+commit bfdb7618859acfae3256abff34cfdebc69ac05f5
+Merge: 45952e4 10fb932
+Author: grojon18 <jonas.gronnerod@gmail.com>
+Date:   Fri May 31 11:01:08 2019 +0200
+
+    Merge branch 'master' of https://github.com/mictho18/Gruppe-36
+
+commit 45952e4f1010eb1fe96b456180623afdc028f7d1
+Author: grojon18 <jonas.gronnerod@gmail.com>
+Date:   Fri May 31 10:59:51 2019 +0200
+
+    Enabling button on input
+
+commit 10fb932ab8f5cc613df14438e19d45de539cfd35
+Merge: 464135a 761acb4
+Author: xetrex <martyskole@gmailc.om>
+Date:   Fri May 31 10:51:22 2019 +0200
+
+    Merge branch 'master' of https://github.com/mictho18/Gruppe-36
+
+commit 464135a0df10b451b11ee81b2434aa9fe23a8355
+Author: xetrex <martyskole@gmailc.om>
+Date:   Fri May 31 10:51:09 2019 +0200
+
+    asd
+
+commit 761acb447a71233c15dcbc86ea9f0411f75433de
+Author: perkristianv <pkvinje@hotmail.com>
+Date:   Fri May 31 10:49:48 2019 +0200
+
+    padding fix
+
+commit 6f596e7ce5da5fa2de5063c5276fb5cc2a781913
+Merge: f537b1d 7e88e99
+Author: xetrex <martyskole@gmailc.om>
+Date:   Fri May 31 10:48:38 2019 +0200
+
+    Merge branch 'master' of https://github.com/mictho18/Gruppe-36
+
+commit 7e88e991662833eb2ea5f3edd0897010605a55ae
+Author: perkristianv <pkvinje@hotmail.com>
+Date:   Thu May 30 16:48:38 2019 +0200
+
+    vistetest
+
+commit 84e03e415ce6e2f2bc4e81da9a04babfbdc91f1e
+Author: perkristianv <pkvinje@hotmail.com>
+Date:   Thu May 30 16:22:56 2019 +0200
+
+    Enable idea board
+
+commit 429e9cabfce694f772158928dc30ada3d7dd8706
+Author: perkristianv <pkvinje@hotmail.com>
+Date:   Thu May 30 15:27:08 2019 +0200
+
+    Added idea board
+
+commit e059c17ce3fd90429fdd3e4adb9ffeffb18df9c2
+Merge: 667d699 4481f4d
+Author: grojon18 <jonas.gronnerod@gmail.com>
+Date:   Thu May 30 14:28:44 2019 +0200
+
+    Merge branch 'master' of https://github.com/mictho18/Gruppe-36
+
+commit 667d6991c59b9f63efc7c4a4d5e79fc6f8dac1e0
+Author: grojon18 <jonas.gronnerod@gmail.com>
+Date:   Thu May 30 14:28:29 2019 +0200
+
+    Font change
+
+commit 4481f4daaedd7755812d39db7c38f2a6246573dd
+Author: perkristianv <pkvinje@hotmail.com>
+Date:   Thu May 30 14:27:41 2019 +0200
+
+    Add task adjustment
+
+commit 065948348427afe3f29634da96b4b94eaaf13845
+Merge: 0fc16a2 1f83873
+Author: perkristianv <pkvinje@hotmail.com>
+Date:   Thu May 30 14:12:27 2019 +0200
+
+    Merge branch 'master' of https://github.com/mictho18/Gruppe-36
+
+commit 0fc16a2f326b49a803e50627a17049f3e44e56d6
+Author: perkristianv <pkvinje@hotmail.com>
+Date:   Thu May 30 14:12:00 2019 +0200
+
+    Update style.css
+
+commit 1f838733eed515f90b228d1cbaf014c589326a0b
+Merge: 1a9d686 112f81f
+Author: grojon18 <jonas.gronnerod@gmail.com>
+Date:   Thu May 30 14:11:34 2019 +0200
+
+    Merge branch 'master' of https://github.com/mictho18/Gruppe-36
+
+commit 1a9d68643bab44ac910f9ac16a82192c13cb0a8f
+Author: grojon18 <jonas.gronnerod@gmail.com>
+Date:   Thu May 30 14:10:16 2019 +0200
+
+    Moved add task
+
+commit 112f81f48925cd59a43342b318912b58b1ee0cd4
+Author: perkristianv <pkvinje@hotmail.com>
+Date:   Thu May 30 13:56:49 2019 +0200
+
+    Update style.css
+
+commit d1bda47b0033d086353927a363a5737e2aed869b
+Author: perkristianv <pkvinje@hotmail.com>
+Date:   Thu May 30 13:40:32 2019 +0200
+
+    Fixed columns
+    
+    Styling
+
+commit 9ca4d5ec6b2df8775f942382a935afea321cbcd0
+Author: Thomas Michelsengit config --global user.email thomas__michelsen@hotmail.comgit config --global user.name = mictho18 <thomas__michelsen@hotmail.com>
+Date:   Thu May 30 12:54:17 2019 +0200
+
+    Update .DS_Store
+
+commit e50a6c00ffe850cf1f0e4343ba19eb788d66c361
+Author: Thomas Michelsengit config --global user.email thomas__michelsen@hotmail.comgit config --global user.name = mictho18 <thomas__michelsen@hotmail.com>
+Date:   Thu May 30 12:40:05 2019 +0200
+
+    Update .DS_Store
+
+commit 5c067f94a64568c6e200f68ea7feafc6744d5d7e
+Author: perkristianv <pkvinje@hotmail.com>
+Date:   Thu May 30 12:37:07 2019 +0200
+
+    Cleaned up default
+
+commit d206154cb34cf87bcba5fa532df55e8db3572f70
+Author: Thomas Michelsengit config --global user.email thomas__michelsen@hotmail.comgit config --global user.name = mictho18 <thomas__michelsen@hotmail.com>
+Date:   Thu May 30 12:22:55 2019 +0200
+
+    Oppdatert UI, også lagt ved enkelt spill
+
+commit 60059da07ce534fcb7cd6c00476195ee17aea625
+Author: Thomas Michelsengit config --global user.email thomas__michelsen@hotmail.comgit config --global user.name = mictho18 <thomas__michelsen@hotmail.com>
+Date:   Thu May 30 12:20:39 2019 +0200
+
+    Update .DS_Store
+
+commit 27d1e7c4f9a1593bfa008ba0af23c062c943c67b
+Author: grojon18 <jonas.gronnerod@gmail.com>
+Date:   Thu May 30 12:07:47 2019 +0200
+
+    Updated v 2.0
+
+commit 85a459b194a5b1add249e48625d07fd60ef50e76
+Merge: 0135aa4 8b87672
+Author: grojon18 <jonas.gronnerod@gmail.com>
+Date:   Thu May 30 12:04:37 2019 +0200
+
+    Merge branch 'master' of https://github.com/mictho18/Gruppe-36
+
+commit 0135aa446d3c98742256da71b0ec9cd14e9939ab
+Merge: bc08bd5 f003c06
+Author: grojon18 <jonas.gronnerod@gmail.com>
+Date:   Thu May 30 12:04:09 2019 +0200
+
+    Merge branch 'master' of https://github.com/mictho18/Gruppe-36
+
+commit 8b87672823388552dc33ae7e4a38d609e19bce5c
+Author: perkristianv <pkvinje@hotmail.com>
+Date:   Thu May 30 12:03:56 2019 +0200
+
+    Create .DS_Store
+
+commit 88f7f29f03ba4e5a3c4a9d65168d1ae8f470bf8d
+Author: perkristianv <pkvinje@hotmail.com>
+Date:   Thu May 30 12:03:49 2019 +0200
+
+    Removed header
+
+commit 9d8b55adce695c3b9ab9a34bb762d9d4b5f3d8ec
+Author: perkristianv <pkvinje@hotmail.com>
+Date:   Thu May 30 12:03:22 2019 +0200
+
+    Update .DS_Store
+
+commit bc08bd5a758637359456a906875542f108ee617a
+Author: grojon18 <jonas.gronnerod@gmail.com>
+Date:   Thu May 30 12:00:57 2019 +0200
+
+    Default board
+
+commit f003c06574d93e619ca196baf234b731790f0556
+Merge: 963ad44 c94e85e
+Author: perkristianv <pkvinje@hotmail.com>
+Date:   Thu May 30 11:58:55 2019 +0200
+
+    Merge branch 'master' of https://github.com/mictho18/Gruppe-36
+
+commit 963ad446ad6a2a3cb75ad52b8ae10879913e920d
+Author: perkristianv <pkvinje@hotmail.com>
+Date:   Thu May 30 11:58:31 2019 +0200
+
+    Create header
+
+commit c94e85e6485326288e42e3da131c6fdefa781001
+Author: grojon18 <42613144+grojon18@users.noreply.github.com>
+Date:   Thu May 30 11:57:27 2019 +0200
+
+    Default board
+    
+    Example of default board in Nova app
+
+commit 59311652b7d8457dbef0a526e723884d3d54a381
+Author: grojon18 <jonas.gronnerod@gmail.com>
+Date:   Thu May 30 11:32:31 2019 +0200
+
+    test
+
+commit cfa391baa7a6eb391c5e3d5c4b20b4bf7361cdd2
+Author: perkristianv <pkvinje@hotmail.com>
+Date:   Thu May 30 11:26:57 2019 +0200
+
+    Create style.css
+
+commit 4f53642fa7555d2a22c514ff80efd7a09c3a5b9c
+Author: perkristianv <pkvinje@hotmail.com>
+Date:   Thu May 30 11:24:55 2019 +0200
+
+    Create index.html
+
+commit 383347f2472a9debb69b268414dbfab63a5ea777
+Merge: 24c3857 2b140d7
+Author: perkristianv <pkvinje@hotmail.com>
+Date:   Thu May 30 11:21:34 2019 +0200
+
+    Merge branch 'master' of https://github.com/mictho18/Gruppe-36
+
+commit 24c385786cd49c94096bc1867b647b32a2cf52ff
+Author: perkristianv <pkvinje@hotmail.com>
+Date:   Thu May 30 11:20:55 2019 +0200
+
+    Miniedit
+    
+    Vet ikke hva jeg gjør
+
+commit 2b140d7eb6f375d09bec9d65adfb65b94c8e21f8
+Author: mictho18 <42611107+mictho18@users.noreply.github.com>
+Date:   Tue May 28 16:06:33 2019 +0200
+
+    Cleaning up master.
+    
+    Cleaning up master branch. Prototype can stil be found under ThomasPrototype - local github folder.
+
+commit f6822e57b0c18db7df996cf8f927f94943ab6177
+Merge: d95d94b 7fa3dcf
+Author: mictho18 <42611107+mictho18@users.noreply.github.com>
+Date:   Tue May 28 16:04:03 2019 +0200
+
+    Merge branch 'master' into ThomasPrototype
+
+commit 7fa3dcfcf0bae1b3a0ea877ff1b6d013eefa8416
+Author: perkristianv <pkvinje@hotmail.com>
+Date:   Mon May 27 14:06:09 2019 +0200
+
+    Added drag drop test
+
+commit d95d94bac154079838bf51b20a0b6d053237f79d
+Author: Thomas <thomas__michelsen@hotmail.com>
+Date:   Mon May 27 14:01:25 2019 +0200
+
+    Oppdatert prototype 2.0
+
+commit f537b1d25339d3a7b5f26b2611c11e41aee1beb6
+Merge: f27705b 2e310d7
+Author: xetrex <martyskole@gmailc.om>
+Date:   Mon May 27 13:53:42 2019 +0200
+
+    Merge remote-tracking branch 'origin/PK-prototype'
+
+commit 2e310d7cd627aa77363e844d51cdec733d07a942
+Author: perkristianv <pkvinje@hotmail.com>
+Date:   Mon May 27 13:47:58 2019 +0200
+
+    Create .DS_Store
+
+commit a195fbbc355a443fc2495d753ae4ede9dc59e4b8
+Author: perkristianv <pkvinje@hotmail.com>
+Date:   Mon May 27 13:47:21 2019 +0200
+
+    PK drag drop prototype
+
+commit f27705b00e23574295777f8b72e0c900b5d75a96
+Author: Thomas <thomas__michelsen@hotmail.com>
+Date:   Mon May 27 13:37:35 2019 +0200
+
+    Endret til ønsket prototype. Prototype Ferdig.
+
+commit 2c6589a4f6653c4e7e10067cb9607d4bc952ce02
+Author: Thomas <thomas__michelsen@hotmail.com>
+Date:   Mon May 27 12:08:40 2019 +0200
+
+    Create .DS_Store
+
+commit 7a292586a9ada5e82cc8e37a41de029ccba65915
+Author: mictho18 <42611107+mictho18@users.noreply.github.com>
+Date:   Mon May 27 10:32:47 2019 +0200
+
+    Lag til ny side for "Sign up" samt forbedret design
+
+commit 453b220f1607e073ed0cab7715c5726161f4e2e5
+Author: mictho18 <42611107+mictho18@users.noreply.github.com>
+Date:   Sun May 26 23:17:42 2019 +0200
+
+    Delete test.html
+
+commit bd5d0b390afa4b81934bace9945194b9cd017a81
+Author: mictho18 <42611107+mictho18@users.noreply.github.com>
+Date:   Sun May 26 23:12:17 2019 +0200
+
+    Oppdatert prototype med bootstrap
+
+commit b1f069cc1780b15b038d0691121d1ffb693f9891
+Author: mictho18 <42611107+mictho18@users.noreply.github.com>
+Date:   Sun May 26 13:48:51 2019 +0200
+
+    Update addNote.HTML
+
+commit 8830e43725b4a65f948e2cde5f2ec7d5d2db1846
+Author: mictho18 <42611107+mictho18@users.noreply.github.com>
+Date:   Sun May 26 13:40:50 2019 +0200
+
+    Laget en enkel prototype
+
+commit d4b173c10356e0f0787a8121cafb26a062c3ad98
+Author: perkristianv <pkvinje@hotmail.com>
+Date:   Sat May 25 12:22:34 2019 +0200
+
+    Create test.html
+
+commit 34b901e83c5ada16d00a6385ce3926193159ed52
+Author: mictho18 <42611107+mictho18@users.noreply.github.com>
+Date:   Thu May 23 10:34:23 2019 +0200
+
+    Initial commit
