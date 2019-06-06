@@ -49,6 +49,29 @@ board {
   width: 100%;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.column-button {
+  text-align: center;
+  padding: 0.1rem;
+}
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+.column-button {
+  text-align: center;
+  padding: 0.1rem;
+}
 
 .add-task-container {
   display: -webkit-box;
@@ -147,6 +170,8 @@ li {
   font-family: "Open Sans", sans-serif;
 }
 
+/*Styling og delete function*/
+
 .delete-button {
   background: #ff4444;
   color: #fff;
@@ -160,6 +185,8 @@ li {
 .delete-button:hover {
   background: #fa7070;
 }
+
+/*Styling of add new card function*/
 
 .add-button {
   z-index: 1;
@@ -564,6 +591,8 @@ input:checked + .slider:before {
   text-decoration: none;
   cursor: pointer;
 }
+
+/*Modal edit button*/
 
   #modalBtn{
   position: relative;
