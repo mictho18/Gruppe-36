@@ -1,3 +1,7 @@
+var saveTask = [];
+var inputTask = document.getElementById("taskText").value;
+var idCounter = 0;
+
 dragula([
   document.getElementById("to-do"),
   document.getElementById("doing"),
@@ -32,6 +36,15 @@ removeOnSpill: false
     "<li class='task'><p>" + inputTask + "</p><span id='editspan'><button id='modalBtn'><i class='fas fa-pencil-alt'></i></button></span></li>";
   /* Clear task text from input after adding task */
   document.getElementById("taskText").value = "";
+
+  var findId = document.querySelector('#to-do');
+  for (var i = 0, task = findId.children.length; i < task; i++);
+
+  var objectSave = {
+    ID: i,
+    Task: inputTask
+  }
+  saveTask.push(objectSave);
   }
 }
 
